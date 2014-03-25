@@ -1,0 +1,36 @@
+[1mdiff --git a/pom.xml b/pom.xml[m
+[1mindex 324d2a5..e1b29ba 100644[m
+[1m--- a/pom.xml[m
+[1m+++ b/pom.xml[m
+[36m@@ -59,17 +59,7 @@[m
+                 </configuration>[m
+             </plugin>[m
+             [m
+[31m-            <plugin>[m
+[31m-                <groupId>org.apache.maven.plugins</groupId>[m
+[31m-                <artifactId>maven-jar-plugin</artifactId>[m
+[31m-                <configuration>[m
+[31m-                    <archive>[m
+[31m-                        <manifest>[m
+[31m-                            <mainClass>com.livehereandnow.sudoku.util.Main</mainClass>[m
+[31m-                        </manifest>[m
+[31m-                    </archive>[m
+[31m-                </configuration>[m
+[31m-            </plugin>[m
+[32m+[m[41m      [m
+             <plugin>[m
+                 <groupId>org.apache.maven.plugins</groupId>[m
+                 <artifactId>maven-compiler-plugin</artifactId>[m
+[1mdiff --git a/src/main/java/com/livehereandnow/sudoku/util/Solver.java b/src/main/java/com/livehereandnow/sudoku/util/Solver.java[m
+[1mindex 6228f9b..f8275c8 100644[m
+[1m--- a/src/main/java/com/livehereandnow/sudoku/util/Solver.java[m
+[1m+++ b/src/main/java/com/livehereandnow/sudoku/util/Solver.java[m
+[36m@@ -5,7 +5,7 @@[m
+  */[m
+ package com.livehereandnow.sudoku.util;[m
+ [m
+[31m-import static com.livehereandnow.sudoku.util.Main.show;[m
+[32m+[m[32m//import static com.livehereandnow.sudoku.app.Main.show;[m
+ import java.util.List;[m
+ import java.util.Stack;[m
+ [m
